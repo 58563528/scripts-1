@@ -28,7 +28,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const pKHelpFlag = true;//是否PK助力  true 助力，false 不助力
 const pKHelpAuthorFlag = true;//是否助力作者PK  true 助力，false 不助力
-let joyToken = "MDFJb0lXQzAxMQ==.fVRoZkx1UGNsTHxXaStHBFRqHEd8DTIYCn1ObHlAYFMkZwp9HCQ=.a0228a38";
+let joyToken = "MDFMYlpVdDAxMQ==.fVRoZkx1UGNsTHxXaStHBFRqHEd8DTIYCn1ObHlAYFMkZwp9HCQ=.a0228a38";
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [];
 $.cookie = '';
